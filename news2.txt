@@ -1,0 +1,79 @@
+3rd International Conference on information System & computer Networks (ISCON) 
+during OCT 10-11, 2015.^This conference tracks on information System(Database and transport Support, 
+Software Engineering,Internet technology,image processing and  Computer Vision 
+etc) and Computer Networks (P2P Networks,Cloud and grid computing,wireless 
+Network, Embedded System etc).#Important Deadline :-
+
+Jul.01 2015       -   Submission of regular papers
+Aug.01 2015       -   Paper acceptance notification to authors
+Aug.15 2015       -   Last Date of Camera Ready Copy Submission
+Aug.20 2015       -   Last date of Registration
+
+Conference Tracks :-
+
+The submission are invited under the following 
+tracks :-
+
+Track 1 :-Information Systems
+
+       *Database Security and transaction Support
+       
+       *Data warehouse and data mining 
+
+       *Information Retreival
+
+       *Software Engineering 
+
+       *Al and Decision Support Systems
+
+       *Internet Technology
+  
+       *Image Processing and Computer Vision
+  
+Track 2:- Computer Networks
+
+       *P2P Networks
+  
+       *Cloud & Grid Computing 
+
+       *Network Management and traffic Management
+
+       *Wireless Networks: Ad-Hoc Networks, Sensor Networks
+
+       *Embedded System
+
+       *Opportunistic Networks
+
+Registration Fee :-
+
+Coporate participants            :-   Rs 12000/-
+
+Academicians CSI/IEEE Members    :-   Rs 8000/-
+
+Academicians Non-Members         :-   Rs 10000/-
+
+Students CSI/IEEE Members        :-   Rs 4800/-
+
+Students Non-Members             :-   Rs 6000/-
+
+Foreign Delegates                :-   US$ 300
+
+Payment Information :-
+
+Name of Account               :-  Conference & Workshop
+
+Account No                    :-  199901000018885
+
+Bank Name                     :-  Indian Overseas Bank
+
+Account Type                  :-  Saving 
+
+Branch Name                   :-  GLA Engineering College, AJAHAI
+
+Bank Address                  :-  Agra-Dehli Road, Near vill-AJAHAI, MAthura
+
+IFSC Code                     :-  IOBA0001999
+
+MICR Code                     :-  281020006
+
+Swift Code                    :-  IOBAINBB001        

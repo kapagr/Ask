@@ -1,0 +1,417 @@
+<html>
+     <head>
+        <title>Login | Ask QueryUs</title>
+        <link href="Ask&Learn.css" rel="stylesheet" type="text/css" media="all" />
+               
+        <style>
+         .header1
+            {
+                padding :  1% ;
+                background-color :  black;
+                border-bottom  :solid ;
+                border-bottom-color : orange ;
+            }
+        .login-header
+        {
+          padding : 1.5% ;
+          background-color : black ;
+        }
+        .address
+        { 
+          margin-left : 0.5% ;
+          margin-top  : -0.5% ;
+        }
+        body
+        {
+          background-image : url(5.jpg);
+          background-size : cover ;
+        }
+        .table-left
+        {
+          color : black ;
+          font-size : 1em ;
+          background-color : brown ;
+          text-align : center ;
+        }
+        .right
+        {
+               text-align : right ;
+		color : white ;
+		margin-right : 1%;
+		margin-top :-1%;
+        }
+        .button
+        {
+    		width : 112% ;
+		height : 270% ;
+		background-color :  #fffabb ;
+		color : black;
+                margin-left: -6% ;
+         }
+	    .button:hover
+	    {
+		background-color : red ;
+                color : white ;
+	    }
+          .button:active
+          {
+               background-color : light blue ;
+          }
+          .news-header
+         {
+            padding :  2% ;
+            background-color : white ;
+            margin-left : 73% ;
+            margin-right :  -234% ;
+         }
+         .news-no
+         {
+		font-size : 1em ;
+		background-color : red;
+		color : white;
+		font-family : "Arial","Times" ;
+		border:1px solid red;
+         }
+         .news
+         {
+            margin-top : 1% ;
+            font-family : "Times","Arial" ;
+            color : green ;
+            font-size : 1em; 
+            text-align : left ;
+
+         }
+         .descrip
+         {
+            margin-left : 2%;
+            margin-top : 3% ;
+            color : black ;
+            text-align : justify ;
+         }
+          .readmore
+        {
+            text-align : center ;
+            font-size : 1em ;
+            background-color : brown ;
+            border-bottom: solid ;
+            border-bottom-color : blue ;
+            color : green ;
+        }
+         .readmore:hover
+         {
+            background-color : red ;
+         }
+           .edit
+        {
+            text-align : center ;
+            font-size : 1em ;
+            background-color : brown ;
+            border-bottom: solid ;
+            border-bottom-color : blue ;
+            color : green ;
+        }
+         .edit:hover
+         {
+            background-color : red ;
+         }
+        
+         hr
+         {
+                margin-top : 8% ;
+		background-color : green ;
+		width : 100%;
+		height : 0.3%;
+         }
+	 .privacy1
+	    {
+		text-align : center ;
+		color : black ;
+		margin-top : 2% ;
+	    }
+	    .privacy1 a
+	    {
+		color : red ;
+	    }
+            
+        </style>
+        </head>
+    <body>
+         <div class="header1">
+            <center>
+                <a href="index.php"><img class="logo" src="logo-get.png"></a><div class="title">Ask Your Query : Learning is Social</div>
+            </center> 
+        </div>
+            <?php session_start();?>
+        <div class="login-header">
+            <div class="address"><a href="index.php"> Home </a> &nbsp > &nbsp <a href="admin.php">Admin Login </a> &nbsp > &nbsp <a href="adpanel.php">Panel</a></div>
+               <div class="right"><?php echo '(Hello !!&nbsp&nbsp'.$_SESSION["User_name"].')'?></div>
+        </div>
+        <div style="float : left ; width : 20% ;">
+          <table cellpadding="15" class="table-left" cellspacing="3" border="1">
+               <tr>
+                    <td><input type="button" class="button" value="Update News"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Update Events"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Update Placement Tracker"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Create Events For Participation"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Manage the Participants"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Students Records"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Faculty Records"/></td>
+               </tr>
+                <tr>
+                    <td><input type="button" class="button" value="Answer the Enquired Query"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Answers"/></td>
+               </tr>
+                 <tr>
+                    <td><input type="button" class="button" value="Questions"/></td>
+               </tr>
+                   <tr>
+                    <td><input type="button" class="button" value="Notification"/></td>
+               </tr>
+                    <tr>
+                    <td><input type="button" class="button" value="Dashboard"/></td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Charts"/></td>
+               </tr>
+                 <tr>
+                    <td><input type="button" class="button" value="Search"/></td>
+               </tr>
+                   <tr>
+                    <td><input type="button" class="button" value="Quiz Management"/></td>
+               </tr>
+                     <tr>
+                    <td><input type="button" class="button" value="Review the Question"/> </td>
+               </tr>
+               <tr>
+                    <td><input type="button" class="button" value="Upload the Videos on Interesting Topics"/></td>
+               </tr>
+                <tr>
+                    <td><input type="button" class="button" value="Profile"/></td>
+               </tr>
+                 <tr>
+                    <td><input type="button" class="button" value="Change Password"/></td>
+               </tr>
+                 <tr>
+                    <td><input type="button" class="button" value="Log Out"/></td>
+               </tr>
+ 
+          </table>
+        </div>
+         <div style="float : center; width : 30% ;">
+     
+               <div class="news-header">
+                <div class="news">
+                    <div style="text-align : left ; color : white ; margin-top : -2% ; margin-bottom : 0% ;"><input type="button" id="search-op" value="Search by Post-Date"></div>
+                    <div style="text-align : right ; color : white ; margin-top : -4.5% ; margin-bottom : -6.5% ; margin-right : 0.5% ;"><input type="button" id="search-op" value="Sorted According To Time"></div>
+                    <hr>
+                    <input class="news-no" type="button" value="1.">
+                    <?php
+                    $heading=NULL;
+                    $shdesc=NULL;
+                    $myfile=fopen("news1.txt","r") or die("unable to open the file");
+                    $line=fgetc($myfile);
+                    while($line!='^')
+                    {
+                        $heading=$heading.$line;
+                         $line=fgetc($myfile);
+                     }
+                     echo $heading;
+                     ?>
+                     <div style="color : black ;">
+                         <?php
+                   echo '<br><br>';
+                    $line=fgetc($myfile);
+                    while($line!='#')
+                    {
+                             $shdesc=$shdesc.$line;
+                             $line=fgetc($myfile);
+                    }
+                    echo $shdesc ;
+                    fclose($myfile);
+                    ?>
+                     </div>
+		    <table align="right" cellpadding="8" style="margin-top : 2% ;background-color : white ;" cellspacing=="4" border="1" width="135" height="10">
+		    <tr>
+			 <td class="readmore"><a href="admin-newsmore.php?id=1">Read More</a></td>
+		    </tr>
+		     </table>
+                      <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="edit"><a href="edit.php?id=1">Update</a></td>
+		    </tr>
+		     </table>
+                     <hr>
+                </div>
+                
+		 <div class="news">
+                    <input class="news-no" type="button" value="2.">
+                    <?php $myfile=fopen("news2.txt","r") or die("unable to open the file");
+                      $heading=NULL;
+                    $shdesc=NULL;
+                     $line=fgetc($myfile);
+                    while($line!='^')
+                    {
+                        $heading=$heading.$line;
+                         $line=fgetc($myfile);
+                     }
+                     echo $heading;
+                     ?>
+                     <div style="color : black ;">
+                         <?php
+                   echo '<br><br>';
+                    $line=fgetc($myfile);
+                    while($line!='#')
+                    {
+                             $shdesc=$shdesc.$line;
+                             $line=fgetc($myfile);
+                    }
+                    echo $shdesc ;
+                    fclose($myfile);
+                    ?>
+                     </div>
+		     <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="readmore"><a href="admin-newsmore.php?id=2">Read More</a></td>
+		    </tr>
+		     </table>
+                      <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="edit"><a href="edit.php?id=2">Update</a></td>
+		    </tr>
+		     </table>
+                     <hr>
+                </div>
+                    <div class="news">
+                    <input class="news-no" type="button" value="3.">
+                    <?php $myfile=fopen("news3.txt","r") or die("unable to open the file");
+                      $heading=NULL;
+                    $shdesc=NULL;
+                     $line=fgetc($myfile);
+                    while($line!='^')
+                    {
+                        $heading=$heading.$line;
+                         $line=fgetc($myfile);
+                     }
+                     echo $heading;
+                     ?>
+                     <div style="color : black ;">
+                         <?php
+                   echo '<br><br>';
+                    $line=fgetc($myfile);
+                    while($line!='#')
+                    {
+                             $shdesc=$shdesc.$line;
+                             $line=fgetc($myfile);
+                    }
+                    echo $shdesc ;
+                    fclose($myfile);
+                    ?>
+                     </div>
+		     <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="readmore"><a href="admin-newsmore.php?id=3">Read More</a></td>
+		    </tr>
+		     </table>
+                      <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="edit"><a href="edit.php?id=3">Update</a></td>
+		    </tr>
+		     </table>
+                     <hr>
+                </div>
+                      <div class="news">
+                    <input class="news-no" type="button" value="4.">
+                    <?php $myfile=fopen("news4.txt","r") or die("unable to open the file");
+                      $heading=NULL;
+                    $shdesc=NULL;
+                     $line=fgetc($myfile);
+                    while($line!='^')
+                    {
+                        $heading=$heading.$line;
+                         $line=fgetc($myfile);
+                     }
+                     echo $heading;
+                     ?>
+                     <div style="color : black ;">
+                         <?php
+                   echo '<br><br>';
+                    $line=fgetc($myfile);
+                    while($line!='#')
+                    {
+                             $shdesc=$shdesc.$line;
+                             $line=fgetc($myfile);
+                    }
+                    echo $shdesc ;
+                    fclose($myfile);
+                    ?>
+                     </div>
+		     <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="readmore"><a href="admin-newsmore.php?id=4">Read More</a></td>
+		    </tr>
+		     </table>
+                      <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="edit"><a href="edit.php?id=4">Update</a></td>
+		    </tr>
+		     </table>
+                     <hr>
+                </div>
+                        <div class="news">
+                    <input class="news-no" type="button" value="5.">
+                    <?php $myfile=fopen("news5.txt","r") or die("unable to open the file");
+                      $heading=NULL;
+                    $shdesc=NULL;
+                     $line=fgetc($myfile);
+                    while($line!='^')
+                    {
+                        $heading=$heading.$line;
+                         $line=fgetc($myfile);
+                     }
+                     echo $heading;
+                     ?>
+                     <div style="color : black ;">
+                         <?php
+                   echo '<br><br>';
+                    $line=fgetc($myfile);
+                    while($line!='#')
+                    {
+                             $shdesc=$shdesc.$line;
+                             $line=fgetc($myfile);
+                    }
+                    echo $shdesc ;
+                    fclose($myfile);
+                    ?>
+                     </div>
+		     <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="readmore"><a href="admin-newsmore.php?id=5">Read More</a></td>
+		    </tr>
+		     </table>
+                      <table align="right" cellpadding="8" style="margin-top : 2% ;" cellspacing=="4" border="1" bgcolor="white" width="135" height="10">
+		    <tr>
+                         <td class="edit"><a href="edit.php?id=5">Update</a></td>
+		    </tr>
+		     </table>
+                     <hr>
+                </div>
+
+
+            </div>
+          </div>   
+    </body>
+</html>

@@ -1,0 +1,39 @@
+body{
+		background: url("acc2.jpg");
+	}
+       	
+
+        ul a{
+            text-decoration: none;
+            color: white;
+        }
+        .header{
+            background: rgba(150,100,100,0.298039);
+            padding: 20px;
+
+        }
+	.logo
+	{
+		font-family: 'Mistral', Helvetica, Arial, sans-serif;	
+		text-align: center;
+		color: white;
+		font-size: 40px;
+	line-height:40px;	
+	}
+	.logoimg{
+		width: 5%;
+		height: 10%;
+	}
+	.lnk{
+		display: inline;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16px;
+	}
+	.lnk:hover{
+		background:red;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+padding-bottom: 10px;
+	}
